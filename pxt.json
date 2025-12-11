@@ -1,0 +1,50 @@
+{
+    "name": "dice of klarma",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "browser-events": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.62",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#911414",
+        "#FF7070",
+        "#249CA3",
+        "#62BBBF",
+        "#583C75",
+        "#AF899F",
+        "#36572A",
+        "#558745",
+        "#B86A16",
+        "#DB9D16",
+        "#333333",
+        "#929292",
+        "#FF005A",
+        "#000000"
+    ]
+}
