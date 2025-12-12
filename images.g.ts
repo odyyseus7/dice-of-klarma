@@ -234,111 +234,6 @@ namespace myImages {
 1 1 . . . . . . . . 
 1 1 . . . . . . . . 
 `;
-            case "image22":
-            case "DS_1":return img`
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-..bababababbbbbbbbbbbbabababab..
-.babababbbbbbbbbbbbbbbbbbababab.
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbffbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbffffbbbbbbbbbbbbbb
-bbbbbbbbbbbbbffffffbbbbbbbbbbbbb
-bbbbbbbbbbbbffffffffbbbbbbbbbbbb
-bbbbbbbbbbbbffffffffbbbbbbbbbbbb
-bbbbbbbbbbbbbffffffbbbbbbbbbbbbb
-bbbbbbbbbbbbbbffffbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbffbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-.babababbbbbbbbbbbbbbbbbbababab.
-..bababababbbbbbbbbbbbabababab..
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-`;
-            case "image23":
-            case "DS_2":return img`
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-..bababababbbbbbbbbbbbabababab..
-.babababbbbbbbbbbbbbbbbbbababab.
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbabbbbbbbbbbbbbbbbbffffffbbbabb
-babbbbbbbbbbbbbbbbbbffffffbbbbab
-bbbbbbbbbbbbbbbbbbbbffffffbbbbbb
-babbbbbbbbbbbbbbbbbbffffffbbbbab
-bbbbbbbbbbbbbbbbbbbbffffffbbbbbb
-bbbbbbbbbbbbbbbbbbbbffffffbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbffffffbbbbbbbbbbbbbbbbbbbb
-bbbbbbffffffbbbbbbbbbbbbbbbbbbbb
-babbbbffffffbbbbbbbbbbbbbbbbbbab
-bbbbbbffffffbbbbbbbbbbbbbbbbbbbb
-babbbbffffffbbbbbbbbbbbbbbbbbbab
-bbabbbffffffbbbbbbbbbbbbbbbbbabb
-babbbbbbbbbbbbbbbbbbbbbbbbbbbbab
-bbabbbbbbbbbbbbbbbbbbbbbbbbbbabb
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-.babababbbbbbbbbbbbbbbbbbababab.
-..bababababbbbbbbbbbbbabababab..
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-`;
-            case "image25":
-            case "DS_3":return img`
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-..bababababbbbbbbbbbbbabababab..
-.babababbbbbbbbbbbbbbbbbbababab.
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-bbabbbbbbbbbbbbbbbbbbbbffbbbbabb
-babbbbbbbbbbbbbbbbbbbbffffbbbbab
-bbabbbbbbbbbbbbbbbbbbffffffbbabb
-babbbbbbbbbbbbbbbbbbffffffffbbab
-bbbbbbbbbbbbbbbbbbbbffffffffbbbb
-babbbbbbbbbbbbbbbbbbbffffffbbbab
-bbbbbbbbbbbbbbbbbbbbbbffffbbbbbb
-bbbbbbbbbbbbbbbbbbbbbbbffbbbbbbb
-bbbbbbbbbbbbbbbffbbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbffffbbbbbbbbbbbbbb
-bbbbbbbbbbbbbffffffbbbbbbbbbbbbb
-bbbbbbbbbbbbffffffffbbbbbbbbbbbb
-bbbbbbbbbbbbffffffffbbbbbbbbbbbb
-bbbbbbbbbbbbbffffffbbbbbbbbbbbbb
-bbbbbbbbbbbbbbffffbbbbbbbbbbbbbb
-bbbbbbbbbbbbbbbffbbbbbbbbbbbbbbb
-bbbbbbbffbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbffffbbbbbbbbbbbbbbbbbbbbbb
-babbbffffffbbbbbbbbbbbbbbbbbbbab
-bbbbffffffffbbbbbbbbbbbbbbbbbbbb
-babbffffffffbbbbbbbbbbbbbbbbbbab
-bbabbffffffbbbbbbbbbbbbbbbbbbabb
-babbbbffffbbbbbbbbbbbbbbbbbbbbab
-bbabbbbffbbbbbbbbbbbbbbbbbbbbabb
-bababbbbbbbbbbbbbbbbbbbbbbbbabab
-.babababbbbbbbbbbbbbbbbbbababab.
-..bababababbbbbbbbbbbbabababab..
-...bbbbbbbbbbbbbbbbbbbbbbbbbb...
-`;
             case "image24":
             case "cursor":return img`
 . . . . . . . . . . . . . . . . 
@@ -679,120 +574,6 @@ ffffffffffffffffffffffcfffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 .77676766666666666666767677.
 ..776767676666666676767677..
 ...7777777777777777777777...
-`;
-            case "image15":
-            case "myImage1":return img`
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 f f 1 1 1 1 1 1 f f 1 d 1 
-d 1 f f f f 1 1 1 1 f f f f 1 d 
-1 1 f f f f 1 1 1 1 f f f f 1 1 
-d 1 1 f f 1 1 1 1 1 1 f f 1 1 d 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-d 1 1 f f 1 1 1 1 1 1 f f 1 1 d 
-1 1 f f f f 1 1 1 1 f f f f 1 1 
-d 1 f f f f 1 1 1 1 f f f f 1 d 
-1 d 1 f f 1 1 1 1 1 1 f f 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-`;
-            case "image13":
-            case "D_3":return img`
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 1 f f f 1 1 1 1 f f f 1 1 d 
-1 1 1 f f f 1 1 1 1 f f f 1 1 1 
-d 1 1 f f f 1 1 1 1 f f f 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-d 1 1 f f f 1 1 1 1 f f f 1 1 d 
-1 1 1 f f f 1 1 1 1 f f f 1 1 1 
-d 1 1 f f f 1 1 1 1 f f f 1 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-`;
-            case "image11":
-            case "D_1":return img`
-1 d 1 d 1 d 1 1 1 1 d 1 d 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 d 1 d 1 1 1 1 d 1 d 1 d 1 
-`;
-            case "image12":
-            case "D_2":return img`
-1 d 1 d 1 d 1 1 1 1 d 1 d 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 1 f f f 1 1 1 1 1 1 1 1 1 d 
-1 1 1 f f f 1 1 1 1 1 1 1 1 1 1 
-d 1 1 f f f 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-d 1 1 1 1 1 1 1 1 1 f f f 1 1 d 
-1 1 1 1 1 1 1 1 1 1 f f f 1 1 1 
-d 1 1 1 1 1 1 1 1 1 f f f 1 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 d 1 d 1 1 1 1 d 1 d 1 d 1 
-`;
-            case "image16":
-            case "myImage2":return img`
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 f f 1 1 f f 1 1 f f 1 1 1 
-d 1 1 f f 1 1 f f 1 1 f f 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-d 1 1 f f 1 1 f f 1 1 f f 1 1 d 
-1 1 1 f f 1 1 f f 1 1 f f 1 1 1 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
-1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-`;
-            case "image14":
-            case "D_4":return img`
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-1 d 1 f f 1 1 1 1 1 1 1 1 1 d 1 
-d 1 f f f f 1 1 1 1 1 1 1 1 1 d 
-1 1 f f f f 1 1 1 1 1 1 1 1 1 1 
-d 1 1 f f 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
-1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
-d 1 1 1 1 1 1 1 1 1 1 f f 1 1 d 
-1 1 1 1 1 1 1 1 1 1 f f f f 1 1 
-d 1 1 1 1 1 1 1 1 1 f f f f 1 d 
-1 d 1 1 1 1 1 1 1 1 1 f f 1 d 1 
-d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
-. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
 `;
             case "image20":
             case "overseebg0":return img`
@@ -1163,13 +944,361 @@ ffffffffffffffffffffffcfffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffcffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffffffffffffffffffffff
 ffffffffffffffffffffffcffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffffffffffffffffffffff
 `;
+            case "image11":
+            case "D_1":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "image12":
+            case "D_2":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 1 f f f 1 1 1 1 1 1 1 1 1 d 
+1 1 1 f f f 1 1 1 1 1 1 1 1 1 1 
+d 1 1 f f f 1 1 1 1 1 1 1 1 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 f f f 1 1 d 
+1 1 1 1 1 1 1 1 1 1 f f f 1 1 1 
+d 1 1 1 1 1 1 1 1 1 f f f 1 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "0SJS{sl6v[=TFgl1**w;":
+            case "voxino":return img`
+.................fffeeeeeeeeefff................
+.................ffefffffffffeff................
+.................fffffffefffffff................
+.................fffffffffffffff................
+.................fffff4444ffffff................
+.................f44444ff444444f................
+...........ffffff44fffffffffff44fffff...........
+...........ffffffffffffffffffffffffff...........
+cccccccccccccccccccccccccccccccccccccccccccccccc
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+ce55555555555555555555555555555555555555555555ec
+ce5555555555555555555555555555ffffffff55555555ec
+ce5555555ff5555555555555555ffff555555555555555ec
+ce555555555ffff55555555555ff555555555555555555ec
+ce5555555555555fffff55555f55555555544444455555ec
+ce5555555ffffff5555f5555555444454444feee455555ec
+ce555555ffeeeeeffffff555554eee444eeefffe455555ec
+ce55555555ffeeeeeeef5555554effeeefffeefe455555ec
+ce5555555555fffee5ef5555554feee5eeeffef4555555ec
+ce5555555555555ffeef5555554feff5fffefef4555555ec
+ce555555555555555ff55555554eef55eefee445555555ec
+ce5555555555555555555555554eefe55ffe4455555555ec
+ce55555555555555555555555544efe5e4444555555555ec
+ce55555555555555555555555554444444555555555555ec
+ce55555555555555555555555555555555555555555555ec
+ce55554555555555555555555555555555555555445555ec
+ce55554445555555555555555555555555554444455555ec
+ce555545544455555555555555555555554444544e5555ec
+ce555545555444444444444444444444444554545e5555ec
+ce555544554455554455554555554555545545545e5555ec
+ce555554545455554455544555544555454545445e5555ec
+ce5555545455455455455454555454554545454e5e5555ec
+ce5555544555545455454554554554545544554e5e5555ec
+ce5555544555544555544555445555445544544e5e5555ec
+ce5555554555554555544555445555545554545e5e5555ec
+ce5555554444444444444444444444444444445e5e5555ec
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+cccccccccccccccccccccccccccccccccccccccccccccccc
+`;
+            case "image15":
+            case "D_5":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 f f 1 1 1 1 1 1 f f 1 d 1 
+d 1 f f f f 1 1 1 1 f f f f 1 d 
+1 1 f f f f 1 1 1 1 f f f f 1 1 
+d 1 1 f f 1 1 1 1 1 1 f f 1 1 d 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+d 1 1 f f 1 1 1 1 1 1 f f 1 1 d 
+1 1 f f f f 1 1 1 1 f f f f 1 1 
+d 1 f f f f 1 1 1 1 f f f f 1 d 
+1 d 1 f f 1 1 1 1 1 1 f f 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "image13":
+            case "D_4":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 1 f f f 1 1 1 1 f f f 1 1 d 
+1 1 1 f f f 1 1 1 1 f f f 1 1 1 
+d 1 1 f f f 1 1 1 1 f f f 1 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 f f f 1 1 1 1 f f f 1 1 d 
+1 1 1 f f f 1 1 1 1 f f f 1 1 1 
+d 1 1 f f f 1 1 1 1 f f f 1 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "image14":
+            case "D_3":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 f f 1 1 1 1 1 1 1 1 1 d 1 
+d 1 f f f f 1 1 1 1 1 1 1 1 1 d 
+1 1 f f f f 1 1 1 1 1 1 1 1 1 1 
+d 1 1 f f 1 1 1 1 1 1 1 1 1 1 d 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 f f f f 1 1 1 1 1 1 
+1 1 1 1 1 1 1 f f 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 f f 1 1 d 
+1 1 1 1 1 1 1 1 1 1 f f f f 1 1 
+d 1 1 1 1 1 1 1 1 1 f f f f 1 d 
+1 d 1 1 1 1 1 1 1 1 1 f f 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "image22":
+            case "DS_1":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b b b b b b b b b b b b a b 
+a b b b b b b b b b b b b b b a 
+b b b b b b b b b b b b b b b b 
+a b b b b b b b b b b b b b b a 
+b b b b b b b f f b b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b b f f b b b b b b b 
+a b b b b b b b b b b b b b b a 
+b b b b b b b b b b b b b b b b 
+a b b b b b b b b b b b b b b a 
+b a b b b b b b b b b b b b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image23":
+            case "DS_2":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b b b b b b b b b b b b a b 
+a b b f f f b b b b b b b b b a 
+b b b f f f b b b b b b b b b b 
+a b b f f f b b b b b b b b b a 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+a b b b b b b b b b f f f b b a 
+b b b b b b b b b b f f f b b b 
+a b b b b b b b b b f f f b b a 
+b a b b b b b b b b b b b b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image25":
+            case "DS_3":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b f f b b b b b b b b b a b 
+a b f f f f b b b b b b b b b a 
+b b f f f f b b b b b b b b b b 
+a b b f f b b b b b b b b b b a 
+b b b b b b b f f b b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b b f f b b b b b b b 
+a b b b b b b b b b b f f b b a 
+b b b b b b b b b b f f f f b b 
+a b b b b b b b b b f f f f b a 
+b a b b b b b b b b b f f b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image28":
+            case "DS_4":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b b b b b b b b b b b b a b 
+a b b f f f b b b b f f f b b a 
+b b b f f f b b b b f f f b b b 
+a b b f f f b b b b f f f b b a 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+a b b f f f b b b b f f f b b a 
+b b b f f f b b b b f f f b b b 
+a b b f f f b b b b f f f b b a 
+b a b b b b b b b b b b b b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image29":
+            case "DS_5":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b f f b b b b b b f f b a b 
+a b f f f f b b b b f f f f b a 
+b b f f f f b b b b f f f f b b 
+a b b f f b b b b b b f f b b a 
+b b b b b b b f f b b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b f f f f b b b b b b 
+b b b b b b b f f b b b b b b b 
+a b b f f b b b b b b f f b b a 
+b b f f f f b b b b f f f f b b 
+a b f f f f b b b b f f f f b a 
+b a b f f b b b b b b f f b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image30":
+            case "DS_6":return img`
+. a b a b a b b b b a b a b a . 
+a b a b b b b b b b b b b a b a 
+b a b b b b b b b b b b b b a b 
+a b b b b b b b b b b b b b b a 
+b b b f f b b f f b b f f b b b 
+a b b f f b b f f b b f f b b a 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+a b b f f b b f f b b f f b b a 
+b b b f f b b f f b b f f b b b 
+a b b b b b b b b b b b b b b a 
+b a b b b b b b b b b b b b a b 
+a b a b b b b b b b b b b a b a 
+. a b a b a b b b b a b a b a . 
+`;
+            case "image16":
+            case "D_6":return img`
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 1 1 f f 1 1 f f 1 1 f f 1 1 1 
+d 1 1 f f 1 1 f f 1 1 f f 1 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 f f 1 1 f f 1 1 f f 1 1 d 
+1 1 1 f f 1 1 f f 1 1 f f 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d 
+1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
+d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
+. d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-
+            case "vincent anim":
+            case "y|A_W+uEz$_93CZU5E%=":return [img`
+.................fffeeeeeeeeefff................
+.................ffefffffffffeff................
+.................fffffffefffffff................
+.................fffffffffffffff................
+.................fffff4444ffffff................
+.................f44444ff444444f................
+...........ffffff44fffffffffff44fffff...........
+...........ffffffffffffffffffffffffff...........
+cccccccccccccccccccccccccccccccccccccccccccccccc
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+ce55555555555555555555555555555555555555555555ec
+ce5555555555555555555555555555ffffffff55555555ec
+ce5555555ff5555555555555555ffff555555555555555ec
+ce555555555ffff55555555555ff555555555555555555ec
+ce5555555555555fffff55555f55555555544444455555ec
+ce5555555ffffff5555f5555555444454444feee455555ec
+ce555555ffeeeeeffffff555554eee444eeefffe455555ec
+ce55555555ffeeeeeeef5555554effeeefffeefe455555ec
+ce5555555555fffee5ef5555554feee5eeeffef4555555ec
+ce5555555555555ffeef5555554feff5fffefef4555555ec
+ce555555555555555ff55555554eef55eefee445555555ec
+ce5555555555555555555555554eefe55ffe4455555555ec
+ce55555555555555555555555544efe5e4444555555555ec
+ce55555555555555555555555554444444555555555555ec
+ce55555555555555555555555555555555555555555555ec
+ce55554555555555555555555555555555555555445555ec
+ce55554445555555555555555555555555554444455555ec
+ce555545544455555555555555555555554444544e5555ec
+ce555545555444444444444444444444444554545e5555ec
+ce555544554455554455554555554555545545545e5555ec
+ce555554545455554455544555544555454545445e5555ec
+ce5555545455455455455454555454554545454e5e5555ec
+ce5555544555545455454554554554545544554e5e5555ec
+ce5555544555544555544555445555445544544e5e5555ec
+ce5555554555554555544555445555545554545e5e5555ec
+ce5555554444444444444444444444444444445e5e5555ec
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+cccccccccccccccccccccccccccccccccccccccccccccccc
+`, img`
+.................fffeeeeeeeeefff................
+.................ffefffffffffeff................
+.................fffffffefffffff................
+.................fffffffffffffff................
+.................fffff4444ffffff................
+.................f44444ff444444f................
+...........ffffff44fffffffffff44fffff...........
+...........ffffffffffffffffffffffffff...........
+cccccccccccccccccccccccccccccccccccccccccccccccc
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+ce55555555555555555555555555555555555555555555ec
+ce5555555555555555555555555555ffffffff55555555ec
+ce5555555ff5555555555555555ffff555555555555555ec
+ce555555555ffff55555555555ff555555555555555555ec
+ce5555555555555fffff55555f55555555544444455555ec
+ce5555555ffffff5555f5555555444454444efff455555ec
+ce555555ffeeeeeffffff555554fff444fffeeef455555ec
+ce55555555ffeeeeeeef5555554feefffeeeffef455555ec
+ce5555555555fffee5ef5555554efff5fffeefe4555555ec
+ce5555555555555ffeef5555554efee5eeefefe4555555ec
+ce555555555555555ff55555554ffe55ffeff445555555ec
+ce5555555555555555555555554ffef55eef4455555555ec
+ce55555555555555555555555544fef5f4444555555555ec
+ce55555555555555555555555554444444555555555555ec
+ce55555555555555555555555555555555555555555555ec
+ce55554555555555555555555555555555555555445555ec
+ce55554445555555555555555555555555554444455555ec
+ce555545544455555555555555555555554444544e5555ec
+ce555545555444444444444444444444444554545e5555ec
+ce555544554455554455554555554555545545545e5555ec
+ce555554545455554455544555544555454545445e5555ec
+ce5555545455455455455454555454554545454e5e5555ec
+ce5555544555545455454554554554545544554e5e5555ec
+ce5555544555544555544555445555445544544e5e5555ec
+ce5555554555554555544555445555545554545e5e5555ec
+ce5555554444444444444444444444444444445e5e5555ec
+ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
+cccccccccccccccccccccccccccccccccccccccccccccccc
+`];
         }
         return null;
     })

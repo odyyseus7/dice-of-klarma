@@ -5,129 +5,77 @@ namespace SpriteKind {
     export const eyes = SpriteKind.create()
     export const dice = SpriteKind.create()
 }
+function setd1 () {
+    dicenum1 = randint(1, 6)
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_1`)
+    }
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_2`)
+    }
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_3`)
+    }
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_4`)
+    }
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_5`)
+    }
+    if (dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_6`)
+    }
+}
+function dice2 () {
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 1) {
+        Dice_2.setImage(assets.image`DS_1`)
+        dice2selected = true
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_1`)
+        dice2selected = false
+    }
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 2) {
+        Dice_2.setImage(assets.image`DS_2`)
+        dice2selected = true
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 2) {
+        Dice_2.setImage(assets.image`D_2`)
+        dice2selected = false
+    }
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 3) {
+        Dice_2.setImage(assets.image`DS_3`)
+        dice2selected = true
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 3) {
+        Dice_2.setImage(assets.image`D_3`)
+        dice2selected = false
+    }
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 4) {
+        Dice_2.setImage(assets.image`DS_4`)
+        dice2selected = true
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 4) {
+        Dice_2.setImage(assets.image`D_4`)
+        dice2selected = false
+    }
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
+        Dice_2.setImage(assets.image`DS_5`)
+        dice2selected = true
+    } else if (dice1selected && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
+        Dice_2.setImage(assets.image`D_5`)
+        dice2selected = false
+    }
+    if (!(dice1selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
+        Dice_2.setImage(assets.image`DS_6`)
+        dice2selected = true
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
+        Dice_2.setImage(assets.image`D_6`)
+        dice2selected = false
+    }
+}
 controller.combos.attachCombo("uuddlrlrba", function () {
-    voxsprite = sprites.create(img`
-        .................fffeeeeeeeeefff................
-        .................ffefffffffffeff................
-        .................fffffffefffffff................
-        .................fffffffffffffff................
-        .................fffff4444ffffff................
-        .................f44444ff444444f................
-        ...........ffffff44fffffffffff44fffff...........
-        ...........ffffffffffffffffffffffffff...........
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        ce55555555555555555555555555555555555555555555ec
-        ce5555555555555555555555555555ffffffff55555555ec
-        ce5555555ff5555555555555555ffff555555555555555ec
-        ce555555555ffff55555555555ff555555555555555555ec
-        ce5555555555555fffff55555f55555555544444455555ec
-        ce5555555ffffff5555f5555555444454444feee455555ec
-        ce555555ffeeeeeffffff555554eee444eeefffe455555ec
-        ce55555555ffeeeeeeef5555554effeeefffeefe455555ec
-        ce5555555555fffee5ef5555554feee5eeeffef4555555ec
-        ce5555555555555ffeef5555554feff5fffefef4555555ec
-        ce555555555555555ff55555554eef55eefee445555555ec
-        ce5555555555555555555555554eefe55ffe4455555555ec
-        ce55555555555555555555555544efe5e4444555555555ec
-        ce55555555555555555555555554444444555555555555ec
-        ce55555555555555555555555555555555555555555555ec
-        ce55554555555555555555555555555555555555445555ec
-        ce55554445555555555555555555555555554444455555ec
-        ce555545544455555555555555555555554444544e5555ec
-        ce555545555444444444444444444444444554545e5555ec
-        ce555544554455554455554555554555545545545e5555ec
-        ce555554545455554455544555544555454545445e5555ec
-        ce5555545455455455455454555454554545454e5e5555ec
-        ce5555544555545455454554554554545544554e5e5555ec
-        ce5555544555544555544555445555445544544e5e5555ec
-        ce5555554555554555544555445555545554545e5e5555ec
-        ce5555554444444444444444444444444444445e5e5555ec
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        `, SpriteKind.vox)
+    voxsprite = sprites.create(assets.image`voxino`, SpriteKind.vox)
     voxsprite.setPosition(80, 18)
     animation.runImageAnimation(
     voxsprite,
-    [img`
-        .................fffeeeeeeeeefff................
-        .................ffefffffffffeff................
-        .................fffffffefffffff................
-        .................fffffffffffffff................
-        .................fffff4444ffffff................
-        .................f44444ff444444f................
-        ...........ffffff44fffffffffff44fffff...........
-        ...........ffffffffffffffffffffffffff...........
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        ce55555555555555555555555555555555555555555555ec
-        ce5555555555555555555555555555ffffffff55555555ec
-        ce5555555ff5555555555555555ffff555555555555555ec
-        ce555555555ffff55555555555ff555555555555555555ec
-        ce5555555555555fffff55555f55555555544444455555ec
-        ce5555555ffffff5555f5555555444454444feee455555ec
-        ce555555ffeeeeeffffff555554eee444eeefffe455555ec
-        ce55555555ffeeeeeeef5555554effeeefffeefe455555ec
-        ce5555555555fffee5ef5555554feee5eeeffef4555555ec
-        ce5555555555555ffeef5555554feff5fffefef4555555ec
-        ce555555555555555ff55555554eef55eefee445555555ec
-        ce5555555555555555555555554eefe55ffe4455555555ec
-        ce55555555555555555555555544efe5e4444555555555ec
-        ce55555555555555555555555554444444555555555555ec
-        ce55555555555555555555555555555555555555555555ec
-        ce55554555555555555555555555555555555555445555ec
-        ce55554445555555555555555555555555554444455555ec
-        ce555545544455555555555555555555554444544e5555ec
-        ce555545555444444444444444444444444554545e5555ec
-        ce555544554455554455554555554555545545545e5555ec
-        ce555554545455554455544555544555454545445e5555ec
-        ce5555545455455455455454555454554545454e5e5555ec
-        ce5555544555545455454554554554545544554e5e5555ec
-        ce5555544555544555544555445555445544544e5e5555ec
-        ce5555554555554555544555445555545554545e5e5555ec
-        ce5555554444444444444444444444444444445e5e5555ec
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        `,img`
-        .................fffeeeeeeeeefff................
-        .................ffefffffffffeff................
-        .................fffffffefffffff................
-        .................fffffffffffffff................
-        .................fffff4444ffffff................
-        .................f44444ff444444f................
-        ...........ffffff44fffffffffff44fffff...........
-        ...........ffffffffffffffffffffffffff...........
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        ce55555555555555555555555555555555555555555555ec
-        ce5555555555555555555555555555ffffffff55555555ec
-        ce5555555ff5555555555555555ffff555555555555555ec
-        ce555555555ffff55555555555ff555555555555555555ec
-        ce5555555555555fffff55555f55555555544444455555ec
-        ce5555555ffffff5555f5555555444454444efff455555ec
-        ce555555ffeeeeeffffff555554fff444fffeeef455555ec
-        ce55555555ffeeeeeeef5555554feefffeeeffef455555ec
-        ce5555555555fffee5ef5555554efff5fffeefe4555555ec
-        ce5555555555555ffeef5555554efee5eeefefe4555555ec
-        ce555555555555555ff55555554ffe55ffeff445555555ec
-        ce5555555555555555555555554ffef55eef4455555555ec
-        ce55555555555555555555555544fef5f4444555555555ec
-        ce55555555555555555555555554444444555555555555ec
-        ce55555555555555555555555555555555555555555555ec
-        ce55554555555555555555555555555555555555445555ec
-        ce55554445555555555555555555555555554444455555ec
-        ce555545544455555555555555555555554444544e5555ec
-        ce555545555444444444444444444444444554545e5555ec
-        ce555544554455554455554555554555545545545e5555ec
-        ce555554545455554455544555544555454545445e5555ec
-        ce5555545455455455455454555454554545454e5e5555ec
-        ce5555544555545455454554554554545544554e5e5555ec
-        ce5555544555544555544555445555445544544e5e5555ec
-        ce5555554555554555544555445555545554545e5e5555ec
-        ce5555554444444444444444444444444444445e5e5555ec
-        ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
-        cccccccccccccccccccccccccccccccccccccccccccccccc
-        `],
+    assets.animation`vincent anim`,
     200,
     true
     )
@@ -137,35 +85,133 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     sprites.destroyAllSpritesOfKind(SpriteKind.Player)
     mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
 })
+function randomize_all_dice () {
+    setd1()
+    setd2()
+    dicenum3 = randint(1, 6)
+    dicenum4 = randint(1, 6)
+    dicenum5 = randint(1, 6)
+}
+function startingdiceslection () {
+    dice1selected = false
+    dice2selected = false
+    dice3selected = false
+    dice4selected = false
+    dice5selected = false
+}
+function setd2 () {
+    dicenum2 = randint(1, 6)
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_1`)
+    }
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_2`)
+    }
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_3`)
+    }
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_4`)
+    }
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_5`)
+    }
+    if (dicenum2 == 1) {
+        Dice_2.setImage(assets.image`D_6`)
+    }
+}
 browserEvents.onMouseMove(function (x, y) {
     mouse.setPosition(x, y)
 })
+function dice1 () {
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 1) {
+        dice_1.setImage(assets.image`DS_1`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 1) {
+        dice_1.setImage(assets.image`D_1`)
+        dice1selected = false
+    }
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 2) {
+        dice_1.setImage(assets.image`DS_2`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 2) {
+        dice_1.setImage(assets.image`D_2`)
+        dice1selected = false
+    }
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 3) {
+        dice_1.setImage(assets.image`DS_3`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 3) {
+        dice_1.setImage(assets.image`D_3`)
+        dice1selected = false
+    }
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 4) {
+        dice_1.setImage(assets.image`DS_4`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 4) {
+        dice_1.setImage(assets.image`D_4`)
+        dice1selected = false
+    }
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 5) {
+        dice_1.setImage(assets.image`DS_5`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 5) {
+        dice_1.setImage(assets.image`D_5`)
+        dice1selected = false
+    }
+    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 6) {
+        dice_1.setImage(assets.image`DS_6`)
+        dice1selected = true
+    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 6) {
+        dice_1.setImage(assets.image`D_6`)
+        dice1selected = false
+    }
+}
+browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function (x, y) {
+    dice1()
+    dice2()
+})
+let dice5selected = false
+let dice4selected = false
+let dice3selected = false
+let dicenum5 = 0
+let dicenum4 = 0
+let dicenum3 = 0
 let voxsprite: Sprite = null
+let dice1selected = false
+let dicenum2 = 0
+let dice2selected = false
+let dicenum1 = 0
 let mouse: Sprite = null
+let Dice_2: Sprite = null
+let dice_1: Sprite = null
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
 Totalbg.setPosition(119, 55)
 bonesbg.setPosition(39, 55)
 multbg.setPosition(78, 55)
-let dice_1 = sprites.create(assets.image`D_1`, SpriteKind.dice)
-let Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
-let Dice_3 = sprites.create(assets.image`D_4`, SpriteKind.dice)
-let Dice_4 = sprites.create(assets.image`D_3`, SpriteKind.dice)
-let Dice_5 = sprites.create(assets.image`myImage1`, SpriteKind.dice)
+dice_1 = sprites.create(assets.image`D_1`, SpriteKind.dice)
+Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
+let Dice_3 = sprites.create(assets.image`D_3`, SpriteKind.dice)
+let Dice_4 = sprites.create(assets.image`D_4`, SpriteKind.dice)
+let Dice_5 = sprites.create(assets.image`D_5`, SpriteKind.dice)
+let startinghandsrerolls = 3
 dice_1.setPosition(35, 75)
 Dice_2.setPosition(58, 75)
 Dice_3.setPosition(80, 75)
 Dice_4.setPosition(105, 75)
 Dice_5.setPosition(127, 75)
 scene.setBackgroundImage(assets.image`overseebg`)
+game.splash("i am the overseer", "you shouldnt be here")
 game.splash("Gambling", "(also known as betting)")
 game.splash("is the wagering of", "something of value")
-game.splash("you will wager your life")
-game.splash("Use A code to", "have someone new!")
+game.splash("you will wager your life", "you dont get a choice")
+game.splash("Use a contra code to", "have someone take MY place")
 browserEvents.setCursorVisible(false)
 mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
-let startinghandsrerolls = 3
+startingdiceslection()
+randomize_all_dice()
 forever(function () {
     if (browserEvents.MouseLeft.isPressed()) {
         mouse.setImage(assets.image`click`)
