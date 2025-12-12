@@ -6,7 +6,7 @@ namespace SpriteKind {
     export const dice = SpriteKind.create()
 }
 controller.combos.attachCombo("uuddlrlrba", function () {
-    mySprite = sprites.create(img`
+    voxsprite = sprites.create(img`
         .................fffeeeeeeeeefff................
         .................ffefffffffffeff................
         .................fffffffefffffff................
@@ -46,9 +46,9 @@ controller.combos.attachCombo("uuddlrlrba", function () {
         ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
         cccccccccccccccccccccccccccccccccccccccccccccccc
         `, SpriteKind.vox)
-    mySprite.setPosition(80, 18)
+    voxsprite.setPosition(80, 18)
     animation.runImageAnimation(
-    mySprite,
+    voxsprite,
     [img`
         .................fffeeeeeeeeefff................
         .................ffefffffffffeff................
@@ -104,14 +104,14 @@ controller.combos.attachCombo("uuddlrlrba", function () {
         ce5555555ff5555555555555555ffff555555555555555ec
         ce555555555ffff55555555555ff555555555555555555ec
         ce5555555555555fffff55555f55555555544444455555ec
-        ce5555555ffffff5555f5555555444454444efee455555ec
-        ce555555ffeeeeeffffff555554ffe444efeeffe455555ec
-        ce55555555ffeeeeeeef5555554feffeeeffeeff455555ec
-        ce5555555555fffee5ef5555554effe5feefeee4555555ec
-        ce5555555555555ffeef5555554eefe5ffefffe4555555ec
-        ce555555555555555ff55555554eff55efeee445555555ec
-        ce5555555555555555555555554efee55fef4455555555ec
-        ce55555555555555555555555544fee5e4444555555555ec
+        ce5555555ffffff5555f5555555444454444efff455555ec
+        ce555555ffeeeeeffffff555554fff444fffeeef455555ec
+        ce55555555ffeeeeeeef5555554feefffeeeffef455555ec
+        ce5555555555fffee5ef5555554efff5fffeefe4555555ec
+        ce5555555555555ffeef5555554efee5eeefefe4555555ec
+        ce555555555555555ff55555554ffe55ffeff445555555ec
+        ce5555555555555555555555554ffef55eef4455555555ec
+        ce55555555555555555555555544fef5f4444555555555ec
         ce55555555555555555555555554444444555555555555ec
         ce55555555555555555555555555555555555555555555ec
         ce55554555555555555555555555555555555555445555ec
@@ -128,36 +128,21 @@ controller.combos.attachCombo("uuddlrlrba", function () {
         ceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeec
         cccccccccccccccccccccccccccccccccccccccccccccccc
         `],
-    500,
+    200,
     true
     )
     scene.setBackgroundImage(assets.image`voxbg`)
     game.splash("Found me?", "Some luck you have")
     game.splash("Trust me with your", "Gambling")
+    sprites.destroyAllSpritesOfKind(SpriteKind.Player)
+    mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
 })
 browserEvents.onMouseMove(function (x, y) {
     mouse.setPosition(x, y)
 })
-let mySprite: Sprite = null
+let voxsprite: Sprite = null
 let mouse: Sprite = null
-let Totalbg = sprites.create(img`
-    ...7777777777777777777777...
-    ..776767676666666676767677..
-    .77676766666666666666767677.
-    7767666666666666666666667677
-    7676666666666666666666666767
-    7766666666666666666666666677
-    7676666666666666666666666767
-    7766666666666666666666666677
-    7766666666666666666666666677
-    7676666666666666666666666767
-    7766666666666666666666666677
-    7676666666666666666666666767
-    7767666666666666666666667677
-    .77676766666666666666767677.
-    ..776767676666666676767677..
-    ...7777777777777777777777...
-    `, SpriteKind.scorekeep)
+let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
 Totalbg.setPosition(119, 55)
@@ -168,7 +153,6 @@ let Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
 let Dice_3 = sprites.create(assets.image`D_4`, SpriteKind.dice)
 let Dice_4 = sprites.create(assets.image`D_3`, SpriteKind.dice)
 let Dice_5 = sprites.create(assets.image`myImage1`, SpriteKind.dice)
-let Dice_6 = sprites.create(assets.image`myImage2`, SpriteKind.dice)
 dice_1.setPosition(35, 75)
 Dice_2.setPosition(58, 75)
 Dice_3.setPosition(80, 75)
@@ -181,6 +165,7 @@ game.splash("you will wager your life")
 game.splash("Use A code to", "have someone new!")
 browserEvents.setCursorVisible(false)
 mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
+let startinghandsrerolls = 3
 forever(function () {
     if (browserEvents.MouseLeft.isPressed()) {
         mouse.setImage(assets.image`click`)
