@@ -5,6 +5,13 @@ namespace SpriteKind {
     export const eyes = SpriteKind.create()
     export const dice = SpriteKind.create()
 }
+function randomize_all_dice () {
+    setd1()
+    setd2()
+    setd3()
+    dicenum4 = randint(1, 6)
+    dicenum5 = randint(1, 6)
+}
 function setd1 () {
     dicenum1 = randint(1, 6)
     if (dicenum1 == 1) {
@@ -86,13 +93,6 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     sprites.destroyAllSpritesOfKind(SpriteKind.Player)
     mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
 })
-function randomize_all_dice () {
-    setd1()
-    setd2()
-    setd3()
-    dicenum4 = randint(1, 6)
-    dicenum5 = randint(1, 6)
-}
 function startingdiceslection () {
     dice1selected = false
     dice2selected = false
@@ -197,13 +197,13 @@ let dicenum3 = 0
 let dice5selected = false
 let dice4selected = false
 let dice3selected = false
-let dicenum5 = 0
-let dicenum4 = 0
 let voxsprite: Sprite = null
 let dice1selected = false
 let dicenum2 = 0
 let dice2selected = false
 let dicenum1 = 0
+let dicenum5 = 0
+let dicenum4 = 0
 let mouse: Sprite = null
 let voncaiser = false
 let Dice_3: Sprite = null
