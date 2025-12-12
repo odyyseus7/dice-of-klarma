@@ -9,8 +9,8 @@ function randomize_all_dice () {
     setd1()
     setd2()
     setd3()
-    dicenum4 = randint(1, 6)
-    dicenum5 = randint(1, 6)
+    setd4()
+    setd5()
 }
 function setd1 () {
     dicenum1 = randint(1, 6)
@@ -75,6 +75,50 @@ function dice2 () {
     } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
         Dice_2.setImage(assets.image`D_6`)
         dice2selected = false
+    }
+}
+function dice4 () {
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+        Dice_3.setImage(assets.image`DS_1`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+        Dice_3.setImage(assets.image`D_1`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+        Dice_3.setImage(assets.image`DS_2`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+        Dice_3.setImage(assets.image`D_2`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+        Dice_3.setImage(assets.image`DS_3`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+        Dice_3.setImage(assets.image`D_3`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+        Dice_3.setImage(assets.image`DS_4`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+        Dice_3.setImage(assets.image`D_4`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+        Dice_3.setImage(assets.image`DS_5`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+        Dice_2.setImage(assets.image`D_5`)
+        dice2selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+        Dice_3.setImage(assets.image`DS_6`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+        Dice_3.setImage(assets.image`D_6`)
+        dice3selected = false
     }
 }
 function dice3 () {
@@ -238,6 +282,50 @@ browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function
     dice2()
     dice3()
 })
+function setd5 () {
+    dicenum5 = randint(1, 6)
+    if (dicenum5 == 1) {
+        Dice_5.setImage(assets.image`D_1`)
+    }
+    if (dicenum5 == 2) {
+        Dice_5.setImage(assets.image`D_2`)
+    }
+    if (dicenum5 == 3) {
+        Dice_5.setImage(assets.image`D_3`)
+    }
+    if (dicenum5 == 4) {
+        Dice_5.setImage(assets.image`D_4`)
+    }
+    if (dicenum5 == 5) {
+        Dice_5.setImage(assets.image`D_5`)
+    }
+    if (dicenum5 == 6) {
+        Dice_5.setImage(assets.image`D_6`)
+    }
+}
+function setd4 () {
+    dicenum4 = randint(1, 6)
+    if (dicenum4 == 1) {
+        Dice_4.setImage(assets.image`D_1`)
+    }
+    if (dicenum4 == 2) {
+        Dice_4.setImage(assets.image`D_2`)
+    }
+    if (dicenum4 == 3) {
+        Dice_4.setImage(assets.image`D_3`)
+    }
+    if (dicenum4 == 4) {
+        Dice_4.setImage(assets.image`D_4`)
+    }
+    if (dicenum4 == 5) {
+        Dice_4.setImage(assets.image`D_5`)
+    }
+    if (dicenum4 == 6) {
+        Dice_4.setImage(assets.image`D_6`)
+    }
+}
+let dicenum4 = 0
+let dicenum5 = 0
 let dice5selected = false
 let dice4selected = false
 let dice1selected = false
@@ -247,10 +335,10 @@ let dice3selected = false
 let dicenum2 = 0
 let dice2selected = false
 let dicenum1 = 0
-let dicenum5 = 0
-let dicenum4 = 0
 let mouse: Sprite = null
 let voncaiser = false
+let Dice_5: Sprite = null
+let Dice_4: Sprite = null
 let Dice_3: Sprite = null
 let Dice_2: Sprite = null
 let dice_1: Sprite = null
@@ -263,8 +351,8 @@ multbg.setPosition(78, 55)
 dice_1 = sprites.create(assets.image`D_1`, SpriteKind.dice)
 Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
 Dice_3 = sprites.create(assets.image`D_3`, SpriteKind.dice)
-let Dice_4 = sprites.create(assets.image`D_4`, SpriteKind.dice)
-let Dice_5 = sprites.create(assets.image`D_5`, SpriteKind.dice)
+Dice_4 = sprites.create(assets.image`D_4`, SpriteKind.dice)
+Dice_5 = sprites.create(assets.image`D_5`, SpriteKind.dice)
 let startinghandsrerolls = 3
 dice_1.setPosition(35, 75)
 Dice_2.setPosition(58, 75)
