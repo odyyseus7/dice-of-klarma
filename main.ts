@@ -65,16 +65,60 @@ function dice2 () {
     if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
         Dice_2.setImage(assets.image`DS_5`)
         dice2selected = true
-    } else if (dice1selected && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
+    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
         Dice_2.setImage(assets.image`D_5`)
         dice2selected = false
     }
-    if (!(dice1selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
         Dice_2.setImage(assets.image`DS_6`)
         dice2selected = true
     } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
         Dice_2.setImage(assets.image`D_6`)
         dice2selected = false
+    }
+}
+function dice3 () {
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+        Dice_3.setImage(assets.image`DS_1`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+        Dice_3.setImage(assets.image`D_1`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+        Dice_3.setImage(assets.image`DS_2`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+        Dice_3.setImage(assets.image`D_2`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+        Dice_3.setImage(assets.image`DS_3`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+        Dice_3.setImage(assets.image`D_3`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+        Dice_3.setImage(assets.image`DS_4`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+        Dice_3.setImage(assets.image`D_4`)
+        dice3selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+        Dice_3.setImage(assets.image`DS_5`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+        Dice_2.setImage(assets.image`D_5`)
+        dice2selected = false
+    }
+    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+        Dice_3.setImage(assets.image`DS_6`)
+        dice3selected = true
+    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+        Dice_3.setImage(assets.image`D_6`)
+        dice3selected = false
     }
 }
 controller.combos.attachCombo("uuddlrlrba", function () {
@@ -192,13 +236,14 @@ function setd3 () {
 browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function (x, y) {
     dice1()
     dice2()
+    dice3()
 })
-let dicenum3 = 0
 let dice5selected = false
 let dice4selected = false
-let dice3selected = false
-let voxsprite: Sprite = null
 let dice1selected = false
+let voxsprite: Sprite = null
+let dicenum3 = 0
+let dice3selected = false
 let dicenum2 = 0
 let dice2selected = false
 let dicenum1 = 0
