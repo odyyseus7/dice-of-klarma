@@ -49,11 +49,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage"
     },
-    "image17": {
-        "data": "hwQKABIAAAAAAAAAAAAAEREAAAAAAAAAAAAAEREAAAAAAAAAABERAAAAAAAAAAAAABERAAAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAAAABERAAAAAAAAAAAAABERAAAAAAAAAAAREQAAAAAAAAAAAAAREQAAAAAAAAAAAAA=",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "myImage3"
-    },
     "image24": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREBAADx/////wEAAPERERH9AQAAER8REf8RAAAQ8RER0R8AAAARH/ERHwAAABDx/f8RAAAAABH/EQEAAAAAEBEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
@@ -168,6 +163,31 @@
         "data": "hwQQABAAAADQ0dERER0dDR0dEREREdHR0RERERERER0dEf8REf8R0RER/xER/xERHREREREREdERERERERERERER/xER/xERERH/ERH/ERERERERERERER0RERERERHRERH/ERH/EREdEf8REf8R0dEREREREREdHR0RERER0dHQ0dERER0dDQ==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "D_6"
+    },
+    "image31": {
+        "data": "hwQ4ACAAAAAAmZmZmZmZmZmZmZmZmZkAkJiYmJiIiIiIiIiJiYmJCYmJiYmIiIiIiIiIiJiYmJiZmIiIiIiIiIiIiIiIiImZiYmIiIiIiIiIiIiIiIiYmJmImIiIiIiIiIiIiIiJiJmJiYiIiIiIiIiIiIiIiJiYmYiIiIiIiIiIiIiIiIiImYmIiIiIiIiIiIiIiIiIiJiZiIiIiIiIiIiIiIiIiIiZiYiIiIiIiIiIiIiIiIiImImIiIiIiIiIiIiIiIiIiJiJGBERiIiIiIiIiIiIiIiYiRgYiIiIiIiIiIiIiIiImIkYEYiIiIiIiIiIiIiIiJiJiIiIiIiIiIiIiIiIiIiYiRgREYiIiIiIiIiIiIiImImIiIiIiIiIiIiIiIiIiJiJiBERiIiIiIiIiIiIiIiYiRiIgYiIiIiIiIiIiIiImImIERGIiIiIiIiIiIiIiJiJiIiIiIiIiIiIiIiIiIiYiRiBiIiIiIiIiIiIiIiImImIGBiIiIiIiIiIiIiIiJiJGBGBiIiIiIiIiIiIiIiYiYiIiIiIiIiIiIiIiIiImImIiIiIiIiIiIiIiIiIiJiJiIiIiIiIiIiIiIiIiIiYiYiIiIiIiIiIiIiIiIiImIkYERGIiIiIiIiIiIiIiJiJiBiIiIiIiIiIiIiIiIiYiRgREYiIiIiIiIiIiIiImImIiIiIiIiIiIiIiIiIiJiJiBERiIiIiIiIiIiIiIiYiRiIgYiIiIiIiIiIiIiImImIERGIiIiIiIiIiIiIiJiJiIiIiIiIiIiIiIiIiIiYiRgREYiIiIiIiIiIiIiImIkYiIiIiIiIiIiIiIiIiJiJiBERiIiIiIiIiIiIiIiYiYiIiIiIiIiIiIiIiIiImIkYERGIiIiIiIiIiIiIiJiJGIgYiIiIiIiIiIiIiIiYiYgREYiIiIiIiIiIiIiImImIiIiIiIiIiIiIiIiIiJiJiIiIiIiIiIiIiIiIiIiYmYiIiIiIiIiIiIiIiIiImYmIiIiIiIiIiIiIiIiIiJiZiIiIiIiIiIiIiIiIiIiZiYmIiIiIiIiIiIiIiIiYmJmImIiIiIiIiIiIiIiJiJmJiYiIiIiIiIiIiIiIiJiYmZiIiIiIiIiIiIiIiIiJmYmJiYmIiIiIiIiIiJiYmJiQmJiYmIiIiIiIiImJiYkJAJmZmZmZmZmZmZmZmZmZAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "playhandbutton"
+    },
+    "image33": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7u7u7u4OAAD+/////w4AAP5ERET1DgAA7k9ERP/uAADg/kREVO8AAADuT/RE7wAAAOD+9f/uAAAAAO7/7g4AAAAA4O4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "voxclick"
+    },
+    "image34": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7u7u7u4OAAD+/////w4AAP5VVVX0DgAA7l9VVf/uAADg/lVVRe8AAADuX/VV7wAAAOD+9P/uAAAAAO7/7g4AAAAA4O4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "voxcursor"
+    },
+    "image17": {
+        "data": "hwQKABIAAAAAAAAAAAAAEREAAAAAAAAAAAAAEREAAAAAAAAAABERAAAAAAAAAAAAABERAAAAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAAAABERAAAAAAAAAAAAABERAAAAAAAAAAAREQAAAAAAAAAAAAAREQAAAAAAAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "slash"
+    },
+    "image32": {
+        "data": "hwQ4ACAAAAAAu7u7u7u7u7u7u7u7u7sAsLq6urqqqqqqqqqrq6urC6urq6uqqqqqqqqqqrq6urq7uqqqqqqqqqqqqqqqqqu7q6uqqqqqqqqqqqqqqqq6uruquqqqqqqqqqqqqqqrqrurq6qqqqqqqqqqqqqqqrq6u6qqqqqqqqqqqqqqqqqqu6uqqqqqqqqqqqqqqqqqqrq7qqqqqqqqqqqqqqqqqqq7q6qqqqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6q6qqqqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6q6qqqqqqqqqqqqqqqqqquqsaERGqqqqqqqqqqqqqqrqrGhqqqqqqqqqqqqqqqqq6qxqhEaqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrGhERqqqqqqqqqqqqqqq6qxoaGqqqqqqqqqqqqqqquqsaqhqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6qxoREaqqqqqqqqqqqqqquqsaGqqqqqqqqqqqqqqqqrqrGqERqqqqqqqqqqqqqqq6q6qqqqqqqqqqqqqqqqqquqsaERGqqqqqqqqqqqqqqrqrGqoaqqqqqqqqqqqqqqq6qxoREaqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrGhERqqqqqqqqqqqqqqq6q6qqGqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrGhERqqqqqqqqqqqqqqq6q6qqGqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6q6qqqqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6q6qqqqqqqqqqqqqqqqqququqqqqqqqqqqqqqqqqqqrqrqqqqqqqqqqqqqqqqqqq6u6qqqqqqqqqqqqqqqqqqu6uqqqqqqqqqqqqqqqqqqrq7qqqqqqqqqqqqqqqqqqq7q6uqqqqqqqqqqqqqqqq6uruquqqqqqqqqqqqqqqrqrurq6qqqqqqqqqqqqqqqrq6u7qqqqqqqqqqqqqqqqqru6urq6uqqqqqqqqqqrq6urqwurq6uqqqqqqqqqurq6sLALu7u7u7u7u7u7u7u7u7AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "rerollbutton"
     },
     "y|A_W+uEz$_93CZU5E%=": {
         "namespace": "myImages",

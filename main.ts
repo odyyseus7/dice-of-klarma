@@ -391,9 +391,13 @@ let dice_1: Sprite = null
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
+let playhandbutton = sprites.create(assets.image`playhandbutton`, SpriteKind.button)
+let rerollbutton = sprites.create(assets.image`rerollbutton`, SpriteKind.button)
 Totalbg.setPosition(119, 55)
 bonesbg.setPosition(39, 55)
 multbg.setPosition(78, 55)
+playhandbutton.setPosition(51, 103)
+rerollbutton.setPosition(109, 103)
 dice_1 = sprites.create(assets.image`D_1`, SpriteKind.dice)
 Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
 Dice_3 = sprites.create(assets.image`D_3`, SpriteKind.dice)
@@ -422,6 +426,12 @@ forever(function () {
             mouse.setImage(assets.image`click`)
         } else {
             mouse.setImage(assets.image`cursor`)
+        }
+    } else {
+        if (browserEvents.MouseLeft.isPressed()) {
+            mouse.setImage(assets.image`voxclick`)
+        } else {
+            mouse.setImage(assets.image`voxcursor`)
         }
     }
 })

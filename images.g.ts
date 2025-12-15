@@ -213,27 +213,6 @@ namespace myImages {
 . . 1 1 1 1 1 1 . . 
 . . 1 1 1 1 1 1 . . 
 `;
-            case "image17":
-            case "myImage3":return img`
-. . . . . . . . 1 1 
-. . . . . . . . 1 1 
-. . . . . . . . 1 1 
-. . . . . . . . 1 1 
-. . . . . . 1 1 . . 
-. . . . . . 1 1 . . 
-. . . . . . 1 1 . . 
-. . . . . . 1 1 . . 
-. . . . 1 1 . . . . 
-. . . . 1 1 . . . . 
-. . 1 1 . . . . . . 
-. . 1 1 . . . . . . 
-. . 1 1 . . . . . . 
-. . 1 1 . . . . . . 
-1 1 . . . . . . . . 
-1 1 . . . . . . . . 
-1 1 . . . . . . . . 
-1 1 . . . . . . . . 
-`;
             case "image24":
             case "cursor":return img`
 . . . . . . . . . . . . . . . . 
@@ -1212,6 +1191,135 @@ d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 d
 1 d 1 1 1 1 1 1 1 1 1 1 1 1 d 1 
 d 1 d 1 1 1 1 1 1 1 1 1 1 d 1 d 
 . d 1 d 1 d 1 1 1 1 d 1 d 1 d . 
+`;
+            case "image31":
+            case "playhandbutton":return img`
+..9999999999999999999999999999999999999999999999999999..
+.989898989888888888888888888888888888888888888989898989.
+98989898888888888888888888888888888888888888888889898989
+99898888888811181881881818888181881881188118888888889899
+98988888888818181818181818888181818181818181888888888989
+99888988888811181818188118888111818181818181888888988899
+98988888888818881811188818888181811181818181888888888989
+99888888888818881818188188888181818181818111888888888899
+98888888888888888888888888888888888888888888888888888889
+99888888888888888888888888888888888888888888888888888899
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+98888888888888888888888888888888888888888888888888888889
+99888888888888888888888888888888888888888888888888888899
+98888888888888888888888888888888888888888888888888888889
+99888888888888888888888888888888888888888888888888888899
+98988888888888888888888888888888888888888888888888888989
+99888988888888888888888888888888888888888888888888988899
+98988888888888888888888888888888888888888888888888888989
+99898888888888888888888888888888888888888888888888889899
+98989898888888888888888888888888888888888888888889898989
+.989898989888888888888888888888888888888888888989898989.
+..9999999999999999999999999999999999999999999999999999..
+`;
+            case "image33":
+            case "voxclick":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . e e e e . . . . . . . . 
+. . . . e f f e e . . . . . . . 
+. . . . e f 4 f e e . . . . . . 
+. . . . e f 4 4 f e e . . . . . 
+. . . . e f 4 4 4 f e e . . . . 
+. . . . e f 4 4 4 4 f e e . . . 
+. . . . e f 4 4 4 4 5 f e . . . 
+. . . . e f 4 4 4 f f f e . . . 
+. . . . e f 5 f 4 4 f e e . . . 
+. . . . e f f f 5 4 f e . . . . 
+. . . . e e e e f f e e . . . . 
+. . . . . . . e e e e . . . . . 
+`;
+            case "image34":
+            case "voxcursor":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . e e e e . . . . . . . . 
+. . . . e f f e e . . . . . . . 
+. . . . e f 5 f e e . . . . . . 
+. . . . e f 5 5 f e e . . . . . 
+. . . . e f 5 5 5 f e e . . . . 
+. . . . e f 5 5 5 5 f e e . . . 
+. . . . e f 5 5 5 5 4 f e . . . 
+. . . . e f 5 5 5 f f f e . . . 
+. . . . e f 4 f 5 5 f e e . . . 
+. . . . e f f f 4 5 f e . . . . 
+. . . . e e e e f f e e . . . . 
+. . . . . . . e e e e . . . . . 
+`;
+            case "image17":
+            case "slash":return img`
+. . . . . . . . 1 1 
+. . . . . . . . 1 1 
+. . . . . . . . 1 1 
+. . . . . . . . 1 1 
+. . . . . . 1 1 . . 
+. . . . . . 1 1 . . 
+. . . . . . 1 1 . . 
+. . . . . . 1 1 . . 
+. . . . 1 1 . . . . 
+. . . . 1 1 . . . . 
+. . 1 1 . . . . . . 
+. . 1 1 . . . . . . 
+. . 1 1 . . . . . . 
+. . 1 1 . . . . . . 
+1 1 . . . . . . . . 
+1 1 . . . . . . . . 
+1 1 . . . . . . . . 
+1 1 . . . . . . . . 
+`;
+            case "image32":
+            case "rerollbutton":return img`
+..bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb..
+.bababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababab.
+babababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababab
+bbabaaaaaaaaaaaaa111a111a111a111a1aa1aaaaaaaaaaaaaaababb
+babaaaaaaaaaaaaaa1a1a1aaa1a1a1a1a1aa1aaaaaaaaaaaaaaaabab
+bbaaabaaaaaaaaaaa11aa11aa11aa1a1a1aa1aaaaaaaaaaaaabaaabb
+babaaaaaaaaaaaaaa1a1a1aaa1a1a1a1a1aa1aaaaaaaaaaaaaaaabab
+bbaaaaaaaaaaaaaaa1a1a111a1a1a111a11a11aaaaaaaaaaaaaaaabb
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+bbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+bbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+bbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb
+babaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabab
+bbaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaabb
+babaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabab
+bbabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababb
+babababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababab
+.bababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababab.
+..bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb..
 `;
         }
         return null;
