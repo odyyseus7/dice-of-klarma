@@ -224,6 +224,11 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     game.splash("Trust me with your", "Gambling")
     sprites.destroyAllSpritesOfKind(SpriteKind.Player)
     mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
+    mousehitbox = sprites.create(img`
+        e e e 
+        e e e 
+        e e e 
+        `, SpriteKind.Player)
 })
 function rerooldice () {
     if (rerollbutton.overlapsWith(mousehitbox)) {
