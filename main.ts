@@ -6,45 +6,45 @@ namespace SpriteKind {
     export const dice = SpriteKind.create()
 }
 function dice5 () {
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 1) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 1) {
         Dice_5.setImage(assets.image`DS_1`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 1) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 1) {
         Dice_5.setImage(assets.image`D_1`)
         dice5selected = false
     }
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 2) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 2) {
         Dice_5.setImage(assets.image`DS_2`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 2) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 2) {
         Dice_5.setImage(assets.image`D_2`)
         dice5selected = false
     }
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 3) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 3) {
         Dice_5.setImage(assets.image`DS_3`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 3) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 3) {
         Dice_5.setImage(assets.image`D_3`)
         dice5selected = false
     }
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 4) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 4) {
         Dice_5.setImage(assets.image`DS_4`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 4) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 4) {
         Dice_5.setImage(assets.image`D_4`)
         dice5selected = false
     }
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 5) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 5) {
         Dice_5.setImage(assets.image`DS_5`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 5) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 5) {
         Dice_5.setImage(assets.image`D_5`)
         dice5selected = false
     }
-    if (!(dice5selected) && Dice_5.overlapsWith(mouse) && dicenum5 == 6) {
+    if (!(dice5selected) && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 6) {
         Dice_5.setImage(assets.image`DS_6`)
         dice5selected = true
-    } else if (dice5selected && Dice_5.overlapsWith(mouse) && dicenum5 == 6) {
+    } else if (dice5selected && Dice_5.overlapsWith(mousehitbox) && dicenum5 == 6) {
         Dice_5.setImage(assets.image`D_6`)
         dice5selected = false
     }
@@ -78,133 +78,133 @@ function setd1 () {
     }
 }
 function dice2 () {
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 1) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 1) {
         Dice_2.setImage(assets.image`DS_1`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 1) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 1) {
         Dice_2.setImage(assets.image`D_1`)
         dice2selected = false
     }
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 2) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 2) {
         Dice_2.setImage(assets.image`DS_2`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 2) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 2) {
         Dice_2.setImage(assets.image`D_2`)
         dice2selected = false
     }
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 3) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 3) {
         Dice_2.setImage(assets.image`DS_3`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 3) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 3) {
         Dice_2.setImage(assets.image`D_3`)
         dice2selected = false
     }
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 4) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 4) {
         Dice_2.setImage(assets.image`DS_4`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 4) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 4) {
         Dice_2.setImage(assets.image`D_4`)
         dice2selected = false
     }
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 5) {
         Dice_2.setImage(assets.image`DS_5`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 5) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 5) {
         Dice_2.setImage(assets.image`D_5`)
         dice2selected = false
     }
-    if (!(dice2selected) && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
+    if (!(dice2selected) && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 6) {
         Dice_2.setImage(assets.image`DS_6`)
         dice2selected = true
-    } else if (dice2selected && Dice_2.overlapsWith(mouse) && dicenum2 == 6) {
+    } else if (dice2selected && Dice_2.overlapsWith(mousehitbox) && dicenum2 == 6) {
         Dice_2.setImage(assets.image`D_6`)
         dice2selected = false
     }
 }
 function dice4 () {
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 1) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 1) {
         Dice_4.setImage(assets.image`DS_1`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 1) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 1) {
         Dice_4.setImage(assets.image`D_1`)
         dice4selected = false
     }
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 2) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 2) {
         Dice_4.setImage(assets.image`DS_2`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 2) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 2) {
         Dice_4.setImage(assets.image`D_2`)
         dice4selected = false
     }
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 3) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 3) {
         Dice_4.setImage(assets.image`DS_3`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 3) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 3) {
         Dice_4.setImage(assets.image`D_3`)
         dice4selected = false
     }
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 4) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 4) {
         Dice_4.setImage(assets.image`DS_4`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 4) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 4) {
         Dice_4.setImage(assets.image`D_4`)
         dice4selected = false
     }
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 5) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 5) {
         Dice_4.setImage(assets.image`DS_5`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 5) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 5) {
         Dice_4.setImage(assets.image`D_5`)
         dice4selected = false
     }
-    if (!(dice4selected) && Dice_4.overlapsWith(mouse) && dicenum4 == 6) {
+    if (!(dice4selected) && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 6) {
         Dice_4.setImage(assets.image`DS_6`)
         dice4selected = true
-    } else if (dice4selected && Dice_4.overlapsWith(mouse) && dicenum4 == 6) {
+    } else if (dice4selected && Dice_4.overlapsWith(mousehitbox) && dicenum4 == 6) {
         Dice_4.setImage(assets.image`D_6`)
         dice4selected = false
     }
 }
 function dice3 () {
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 1) {
         Dice_3.setImage(assets.image`DS_1`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 1) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 1) {
         Dice_3.setImage(assets.image`D_1`)
         dice3selected = false
     }
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 2) {
         Dice_3.setImage(assets.image`DS_2`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 2) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 2) {
         Dice_3.setImage(assets.image`D_2`)
         dice3selected = false
     }
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 3) {
         Dice_3.setImage(assets.image`DS_3`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 3) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 3) {
         Dice_3.setImage(assets.image`D_3`)
         dice3selected = false
     }
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 4) {
         Dice_3.setImage(assets.image`DS_4`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 4) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 4) {
         Dice_3.setImage(assets.image`D_4`)
         dice3selected = false
     }
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 5) {
         Dice_3.setImage(assets.image`DS_5`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 5) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 5) {
         Dice_3.setImage(assets.image`D_5`)
         dice3selected = false
     }
-    if (!(dice3selected) && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+    if (!(dice3selected) && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 6) {
         Dice_3.setImage(assets.image`DS_6`)
         dice3selected = true
-    } else if (dice3selected && Dice_3.overlapsWith(mouse) && dicenum3 == 6) {
+    } else if (dice3selected && Dice_3.overlapsWith(mousehitbox) && dicenum3 == 6) {
         Dice_3.setImage(assets.image`D_6`)
         dice3selected = false
     }
@@ -225,6 +225,26 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     sprites.destroyAllSpritesOfKind(SpriteKind.Player)
     mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
 })
+function rerooldice () {
+    if (rerollbutton.overlapsWith(mousehitbox)) {
+        if (dice2selected) {
+            setd2()
+        }
+        if (dice5selected) {
+            setd5()
+        }
+        if (dice1selected) {
+            setd1()
+        }
+        if (dice3selected) {
+            setd3()
+        }
+        if (dice4selected) {
+            setd4()
+        }
+        startingdiceslection()
+    }
+}
 function startingdiceslection () {
     dice1selected = false
     dice2selected = false
@@ -255,47 +275,48 @@ function setd2 () {
 }
 browserEvents.onMouseMove(function (x, y) {
     mouse.setPosition(x, y)
+    mousehitbox.setPosition(x - 3, y - 3)
 })
 function dice1 () {
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 1) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 1) {
         dice_1.setImage(assets.image`DS_1`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 1) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 1) {
         dice_1.setImage(assets.image`D_1`)
         dice1selected = false
     }
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 2) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 2) {
         dice_1.setImage(assets.image`DS_2`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 2) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 2) {
         dice_1.setImage(assets.image`D_2`)
         dice1selected = false
     }
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 3) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 3) {
         dice_1.setImage(assets.image`DS_3`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 3) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 3) {
         dice_1.setImage(assets.image`D_3`)
         dice1selected = false
     }
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 4) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 4) {
         dice_1.setImage(assets.image`DS_4`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 4) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 4) {
         dice_1.setImage(assets.image`D_4`)
         dice1selected = false
     }
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 5) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 5) {
         dice_1.setImage(assets.image`DS_5`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 5) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 5) {
         dice_1.setImage(assets.image`D_5`)
         dice1selected = false
     }
-    if (!(dice1selected) && dice_1.overlapsWith(mouse) && dicenum1 == 6) {
+    if (!(dice1selected) && dice_1.overlapsWith(mousehitbox) && dicenum1 == 6) {
         dice_1.setImage(assets.image`DS_6`)
         dice1selected = true
-    } else if (dice1selected && dice_1.overlapsWith(mouse) && dicenum1 == 6) {
+    } else if (dice1selected && dice_1.overlapsWith(mousehitbox) && dicenum1 == 6) {
         dice_1.setImage(assets.image`D_6`)
         dice1selected = false
     }
@@ -327,6 +348,7 @@ browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function
     dice3()
     dice4()
     dice5()
+    rerooldice()
 })
 function setd5 () {
     dicenum5 = randint(1, 6)
@@ -370,6 +392,9 @@ function setd4 () {
         Dice_4.setImage(assets.image`D_6`)
     }
 }
+function playhand () {
+	
+}
 let dice1selected = false
 let voxsprite: Sprite = null
 let dicenum3 = 0
@@ -381,6 +406,7 @@ let dice2selected = false
 let dicenum1 = 0
 let dicenum5 = 0
 let dice5selected = false
+let mousehitbox: Sprite = null
 let mouse: Sprite = null
 let voncaiser = false
 let Dice_5: Sprite = null
@@ -388,11 +414,12 @@ let Dice_4: Sprite = null
 let Dice_3: Sprite = null
 let Dice_2: Sprite = null
 let dice_1: Sprite = null
+let rerollbutton: Sprite = null
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
 let playhandbutton = sprites.create(assets.image`playhandbutton`, SpriteKind.button)
-let rerollbutton = sprites.create(assets.image`rerollbutton`, SpriteKind.button)
+rerollbutton = sprites.create(assets.image`rerollbutton`, SpriteKind.button)
 Totalbg.setPosition(119, 55)
 bonesbg.setPosition(39, 55)
 multbg.setPosition(78, 55)
@@ -418,6 +445,11 @@ game.splash("Use a contra code to", "have someone take MY place")
 voncaiser = true
 browserEvents.setCursorVisible(false)
 mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
+mousehitbox = sprites.create(img`
+    e e e 
+    e e e 
+    e e e 
+    `, SpriteKind.Player)
 startingdiceslection()
 randomize_all_dice()
 forever(function () {
