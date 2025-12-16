@@ -232,27 +232,27 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     mousehitbox.setFlag(SpriteFlag.Invisible, true)
 })
 function rerooldice () {
-    if (rerollbutton.overlapsWith(mousehitbox)) {
-        if (rerollamt != 0) {
-            if (dice2selected) {
-                setd2()
+    if (dice4selected || dice3selected || dice1selected || (dice5selected || dice2selected)) {
+        if (rerollbutton.overlapsWith(mousehitbox)) {
+            if (rerollamt > 0) {
+                if (dice2selected) {
+                    setd2()
+                }
+                if (dice5selected) {
+                    setd5()
+                }
+                if (dice1selected) {
+                    setd1()
+                }
+                if (dice3selected) {
+                    setd3()
+                }
+                if (dice4selected) {
+                    setd4()
+                }
+                startingdiceslection()
             }
-            if (dice5selected) {
-                setd5()
-            }
-            if (dice1selected) {
-                setd1()
-            }
-            if (dice3selected) {
-                setd3()
-            }
-            if (dice4selected) {
-                setd4()
-            }
-            startingdiceslection()
-            if (dice4selected || dice3selected || dice1selected || (dice5selected || dice2selected)) {
-                rerollamt += -1
-            }
+            rerollamt += -1
         }
     }
 }
@@ -411,8 +411,8 @@ function playhand () {
 	
 }
 let handsamt = 0
-let dice1selected = false
 let rerollamt = 0
+let dice1selected = false
 let voxsprite: Sprite = null
 let dicenum3 = 0
 let dice3selected = false
@@ -472,6 +472,25 @@ mousehitbox.setFlag(SpriteFlag.Invisible, true)
 startingdiceslection()
 randomize_all_dice()
 startoff()
+let rerollamtsprite = sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `, SpriteKind.Player)
+rerollamtsprite.setPosition(113, 105)
 let digits = [
 assets.image`myImage`,
 assets.image`1`,
@@ -498,4 +517,7 @@ forever(function () {
             mouse.setImage(assets.image`voxcursor`)
         }
     }
+})
+forever(function () {
+    rerollamtsprite.setImage(digits[rerollamt])
 })
