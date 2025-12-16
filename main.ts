@@ -229,6 +229,7 @@ controller.combos.attachCombo("uuddlrlrba", function () {
         e e e 
         e e e 
         `, SpriteKind.Player)
+    mousehitbox.setFlag(SpriteFlag.Invisible, true)
 })
 function rerooldice () {
     if (rerollbutton.overlapsWith(mousehitbox)) {
@@ -455,6 +456,7 @@ mousehitbox = sprites.create(img`
     e e e 
     e e e 
     `, SpriteKind.Player)
+mousehitbox.setFlag(SpriteFlag.Invisible, true)
 startingdiceslection()
 randomize_all_dice()
 forever(function () {
