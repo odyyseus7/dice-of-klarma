@@ -233,22 +233,27 @@ controller.combos.attachCombo("uuddlrlrba", function () {
 })
 function rerooldice () {
     if (rerollbutton.overlapsWith(mousehitbox)) {
-        if (dice2selected) {
-            setd2()
+        if (rerollamt != 0) {
+            if (dice2selected) {
+                setd2()
+            }
+            if (dice5selected) {
+                setd5()
+            }
+            if (dice1selected) {
+                setd1()
+            }
+            if (dice3selected) {
+                setd3()
+            }
+            if (dice4selected) {
+                setd4()
+            }
+            startingdiceslection()
+            if (dice4selected || dice3selected || dice1selected || (dice5selected || dice2selected)) {
+                rerollamt += -1
+            }
         }
-        if (dice5selected) {
-            setd5()
-        }
-        if (dice1selected) {
-            setd1()
-        }
-        if (dice3selected) {
-            setd3()
-        }
-        if (dice4selected) {
-            setd4()
-        }
-        startingdiceslection()
     }
 }
 function startingdiceslection () {
@@ -356,6 +361,10 @@ browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function
     dice5()
     rerooldice()
 })
+function startoff () {
+    rerollamt = startinghandsrerolls
+    handsamt = startinghandsrerolls
+}
 function setd5 () {
     dicenum5 = randint(1, 6)
     if (dicenum5 == 1) {
@@ -401,7 +410,9 @@ function setd4 () {
 function playhand () {
 	
 }
+let handsamt = 0
 let dice1selected = false
+let rerollamt = 0
 let voxsprite: Sprite = null
 let dicenum3 = 0
 let dice3selected = false
@@ -415,6 +426,7 @@ let dice5selected = false
 let mousehitbox: Sprite = null
 let mouse: Sprite = null
 let voncaiser = false
+let startinghandsrerolls = 0
 let Dice_5: Sprite = null
 let Dice_4: Sprite = null
 let Dice_3: Sprite = null
@@ -436,7 +448,7 @@ Dice_2 = sprites.create(assets.image`D_2`, SpriteKind.dice)
 Dice_3 = sprites.create(assets.image`D_3`, SpriteKind.dice)
 Dice_4 = sprites.create(assets.image`D_4`, SpriteKind.dice)
 Dice_5 = sprites.create(assets.image`D_5`, SpriteKind.dice)
-let startinghandsrerolls = 3
+startinghandsrerolls = 3
 dice_1.setPosition(35, 75)
 Dice_2.setPosition(58, 75)
 Dice_3.setPosition(81, 75)
@@ -459,6 +471,19 @@ mousehitbox = sprites.create(img`
 mousehitbox.setFlag(SpriteFlag.Invisible, true)
 startingdiceslection()
 randomize_all_dice()
+startoff()
+let digits = [
+assets.image`myImage`,
+assets.image`1`,
+assets.image`2`,
+assets.image`3`,
+assets.image`4`,
+assets.image`5`,
+assets.image`6`,
+assets.image`7`,
+assets.image`8`,
+assets.image`9`
+]
 forever(function () {
     if (voncaiser) {
         if (browserEvents.MouseLeft.isPressed()) {
