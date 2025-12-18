@@ -232,27 +232,29 @@ controller.combos.attachCombo("uuddlrlrba", function () {
     mousehitbox.setFlag(SpriteFlag.Invisible, true)
 })
 function rerooldice () {
-    if (dice4selected || dice3selected || dice1selected || (dice5selected || dice2selected)) {
-        if (rerollbutton.overlapsWith(mousehitbox)) {
-            if (rerollamt > 0) {
-                if (dice2selected) {
-                    setd2()
+    if (handisntcurrentlyrun) {
+        if (dice4selected || dice3selected || dice1selected || (dice5selected || dice2selected)) {
+            if (rerollbutton.overlapsWith(mousehitbox)) {
+                if (rerollamt > 0) {
+                    if (dice2selected) {
+                        setd2()
+                    }
+                    if (dice5selected) {
+                        setd5()
+                    }
+                    if (dice1selected) {
+                        setd1()
+                    }
+                    if (dice3selected) {
+                        setd3()
+                    }
+                    if (dice4selected) {
+                        setd4()
+                    }
+                    startingdiceslection()
                 }
-                if (dice5selected) {
-                    setd5()
-                }
-                if (dice1selected) {
-                    setd1()
-                }
-                if (dice3selected) {
-                    setd3()
-                }
-                if (dice4selected) {
-                    setd4()
-                }
-                startingdiceslection()
+                rerollamt += -1
             }
-            rerollamt += -1
         }
     }
 }
@@ -332,6 +334,12 @@ function dice1 () {
         dice1selected = false
     }
 }
+function intiate () {
+    pairs = 0
+    trips = false
+    quads = false
+    pentatration = false
+}
 function setd3 () {
     dicenum3 = randint(1, 6)
     if (dicenum3 == 1) {
@@ -386,6 +394,24 @@ function setd5 () {
         Dice_5.setImage(assets.image`D_6`)
     }
 }
+function getCounts (hand: number[]) {
+    counts = [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+    ]
+    for (let i = 0; i <= hand.length - 1; i++) {
+        value = hand[i]
+        if (value >= 1 && value <= 6) {
+            counts[value] += 1
+        }
+    }
+    return counts
+}
 function setd4 () {
     dicenum4 = randint(1, 6)
     if (dicenum4 == 1) {
@@ -408,9 +434,28 @@ function setd4 () {
     }
 }
 function playhand () {
-	
+    if (playhandbutton.overlapsWith(mousehitbox)) {
+        intiate()
+        dicenums = [
+        dicenum1,
+        dicenum2,
+        dicenum3,
+        dicenum4,
+        dicenum5
+        ]
+        boneamt += dicenum1 + (dicenum2 + (dicenum3 + (dicenum4 + dicenum5)))
+        getCounts(counts)
+    }
 }
+let boneamt = 0
+let dicenums: number[] = []
+let value = 0
+let counts: number[] = []
 let handsamt = 0
+let pentatration = false
+let quads = false
+let trips = false
+let pairs = 0
 let rerollamt = 0
 let dice1selected = false
 let voxsprite: Sprite = null
@@ -425,6 +470,7 @@ let dicenum5 = 0
 let dice5selected = false
 let mousehitbox: Sprite = null
 let mouse: Sprite = null
+let handisntcurrentlyrun = false
 let voncaiser = false
 let startinghandsrerolls = 0
 let Dice_5: Sprite = null
@@ -433,10 +479,12 @@ let Dice_3: Sprite = null
 let Dice_2: Sprite = null
 let dice_1: Sprite = null
 let rerollbutton: Sprite = null
+let playhandbutton: Sprite = null
+let counts2: number[] = []
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
-let playhandbutton = sprites.create(assets.image`playhandbutton`, SpriteKind.button)
+playhandbutton = sprites.create(assets.image`playhandbutton`, SpriteKind.button)
 rerollbutton = sprites.create(assets.image`rerollbutton`, SpriteKind.button)
 Totalbg.setPosition(119, 55)
 bonesbg.setPosition(39, 55)
@@ -461,6 +509,7 @@ game.splash("is the wagering of", "something of value")
 game.splash("you will wager your life", "you dont get a choice")
 game.splash("Use a contra code to", "have someone take MY place")
 voncaiser = true
+handisntcurrentlyrun = true
 browserEvents.setCursorVisible(false)
 mouse = sprites.create(assets.image`cursor`, SpriteKind.Player)
 mousehitbox = sprites.create(img`
