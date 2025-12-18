@@ -444,9 +444,6 @@ function playhand () {
         ]
         boneamt += dicenum1 + (dicenum2 + (dicenum3 + (dicenum4 + dicenum5)))
         getCounts(counts)
-        for (let index = 1; index <= 6; index++) {
-        	
-        }
     }
 }
 let boneamt = 0
