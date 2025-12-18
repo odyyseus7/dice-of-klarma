@@ -394,9 +394,8 @@ function setd5 () {
         Dice_5.setImage(assets.image`D_6`)
     }
 }
-function getCounts (hand: number[]) {
+function getCounts (hand: any[]) {
     counts = [
-    0,
     0,
     0,
     0,
@@ -404,10 +403,10 @@ function getCounts (hand: number[]) {
     0,
     0
     ]
-    for (let i = 0; i <= hand.length - 1; i++) {
+    for (let i = 0; i <= hand.length; i++) {
         value = hand[i]
         if (value >= 1 && value <= 6) {
-            counts[value] += 1
+            counts[i] = counts[i] + 1
         }
     }
     return counts
@@ -445,12 +444,13 @@ function playhand () {
         ]
         boneamt += dicenum1 + (dicenum2 + (dicenum3 + (dicenum4 + dicenum5)))
         getCounts(counts)
+        for (let index = 1; index <= 6; index++) {
+        	
+        }
     }
 }
 let boneamt = 0
 let dicenums: number[] = []
-let value = 0
-let counts: number[] = []
 let handsamt = 0
 let pentatration = false
 let quads = false
@@ -480,7 +480,10 @@ let Dice_2: Sprite = null
 let dice_1: Sprite = null
 let rerollbutton: Sprite = null
 let playhandbutton: Sprite = null
-let counts2: number[] = []
+let value = 0
+let counts: number[] = []
+counts = []
+value = 0
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
