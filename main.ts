@@ -481,6 +481,7 @@ let value = 0
 let counts: number[] = []
 counts = []
 value = 0
+// anders you have finals on jan 8 at 10am
 let Totalbg = sprites.create(assets.image`totalbg`, SpriteKind.scorekeep)
 let bonesbg = sprites.create(assets.image`bonecount`, SpriteKind.scorekeep)
 let multbg = sprites.create(assets.image`multcount`, SpriteKind.scorekeep)
